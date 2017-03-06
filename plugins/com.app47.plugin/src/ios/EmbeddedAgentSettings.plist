@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application id</key>
+	<string>50b793df192e22000200008e</string>
+	<key>configuration update frequency</key>
+	<real>0.0001</real>
+	<key>delay data upload interval</key>
+	<integer>10</integer>
+	<key>agent logging level</key>
+	<true/>
+</dict>
+</plist>
