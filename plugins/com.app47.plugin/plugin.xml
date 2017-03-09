@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="com.app47.plugin" version="3.0">
+    <name>App47 Agent Plugin for PhoneGap</name>
+    <description>App47 Agent Plugin</description>
+    <license>MIT</license>
+    <keywords>phonegap,analytics,app47</keywords>
+ 
+ 
+    <js-module src="www/app47.js" name="App47">
+        <clobbers target="window.app47" />
+    </js-module>
+ 
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="App47">
+                <param name="android-package" value="com.app47.pgplugin.App47PGPlugin"/>
+            </feature>
+        </config-file>
+ 
+        <source-file src="src/android/com/app47/pgplugin/App47PGPlugin.java" target-dir="src/com/app47/pgplugin" />  
+        <lib-file src="src/android/com/app47/libs/AndroidAgent-1.9.1.jar" /> 
+        <lib-file src="src/android/com/app47/libs/android-support-v4.jar" />
+        
+     </platform>   
+
+     <platform name="ios">    
+        <config-file target="config.xml" parent="/*">
+            <feature name="App47">
+                <param name="ios-package" value="App47PGPlugin" /> 
+            </feature>
+        </config-file>        
+        
+        <header-file src="src/ios/App47PGPlugin.h" />
+        <source-file src="src/ios/App47PGPlugin.m" />
+        <resource-file src="src/ios/EmbeddedAgentSettings.plist" />
+        
+        <framework src="src/ios/EmbeddedAgent.framework" custom="true" embed="true" />
+        
+    </platform>       
+</plugin>
