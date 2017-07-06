@@ -9,8 +9,10 @@
     },
     "com.app47.plugin": {
         "source": {
-            "type": "local",
-            "path": "../../App47-Cordova"
+            "type": "git",
+            "url": "https://github.com/App47/Cordova-6.x",
+            "subdir": ".",
+            "ref": "feature/MAM-9153_Update_Cordova_plugin_for_new_agents"
         },
         "is_top_level": true,
         "variables": {}

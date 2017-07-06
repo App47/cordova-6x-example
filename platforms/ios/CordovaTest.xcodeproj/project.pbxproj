@@ -5,19 +5,17 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		226569691E6DD8A200743D43 /* EmbeddedAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40AB5D5C54BA49E9A0AB5A99 /* EmbeddedAgent.framework */; };
-		2265696A1E6DD8A200743D43 /* EmbeddedAgent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40AB5D5C54BA49E9A0AB5A99 /* EmbeddedAgent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		7ADC24A2E2EB4500BC802012 /* App47PGPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B2178F06E4CF7B67ACBD0 /* App47PGPlugin.m */; };
-		AB996B1E8C3646EDBE10EAF0 /* EmbeddedAgentSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D874AF175B154052A432C427 /* EmbeddedAgentSettings.plist */; };
+		B815D485BA35429681F5CAAD /* App47PGPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1548F5AA85DF46E39DAAF137 /* App47PGPlugin.m */; };
+		4F56D6E953964C3F920B49B7 /* EmbeddedAgentSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB9CE7EB95264D5FA5DCD74E /* EmbeddedAgentSettings.plist */; };
+		679A101E92DF44548B862EA5 /* EmbeddedAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8723355A4F4436865BC885 /* EmbeddedAgent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +43,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				2265696A1E6DD8A200743D43 /* EmbeddedAgent.framework in Embed Frameworks */,
+				F457F91C1D804511BC1DB9B6 /* EmbeddedAgent.framework in Frameworks */,
+				679A101E92DF44548B862EA5 /* EmbeddedAgent.framework in Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,16 +66,16 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* CordovaTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CordovaTest-Prefix.pch"; sourceTree = "<group>"; };
-		3A5B2178F06E4CF7B67ACBD0 /* App47PGPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = App47PGPlugin.m; path = com.app47.plugin/App47PGPlugin.m; sourceTree = "<group>"; };
-		40AB5D5C54BA49E9A0AB5A99 /* EmbeddedAgent.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = EmbeddedAgent.framework; path = CordovaTest/Plugins/com.app47.plugin/EmbeddedAgent.framework; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = CordovaTest/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* CordovaTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CordovaTest-Info.plist"; path = "CordovaTest/CordovaTest-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		C57ADED3AACD439F921F58D3 /* App47PGPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = App47PGPlugin.h; path = com.app47.plugin/App47PGPlugin.h; sourceTree = "<group>"; };
-		D874AF175B154052A432C427 /* EmbeddedAgentSettings.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; path = EmbeddedAgentSettings.plist; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = CordovaTest/config.xml; sourceTree = "<group>"; };
+		1548F5AA85DF46E39DAAF137 /* App47PGPlugin.m */ = {isa = PBXFileReference; name = "App47PGPlugin.m"; path = "com.app47.plugin/App47PGPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		60D5576EE88E4BE7A030315A /* App47PGPlugin.h */ = {isa = PBXFileReference; name = "App47PGPlugin.h"; path = "com.app47.plugin/App47PGPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FB9CE7EB95264D5FA5DCD74E /* EmbeddedAgentSettings.plist */ = {isa = PBXFileReference; name = "EmbeddedAgentSettings.plist"; path = "EmbeddedAgentSettings.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		6E8723355A4F4436865BC885 /* EmbeddedAgent.framework */ = {isa = PBXFileReference; name = "EmbeddedAgent.framework"; path = "CordovaTest/Plugins/com.app47.plugin/EmbeddedAgent.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				226569691E6DD8A200743D43 /* EmbeddedAgent.framework in Frameworks */,
+				679A101E92DF44548B862EA5 /* EmbeddedAgent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* CordovaTest-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
-				D874AF175B154052A432C427 /* EmbeddedAgentSettings.plist */,
+				FB9CE7EB95264D5FA5DCD74E /* EmbeddedAgentSettings.plist */,
 			);
 			name = Resources;
 			path = CordovaTest/Resources;
@@ -156,7 +156,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				40AB5D5C54BA49E9A0AB5A99 /* EmbeddedAgent.framework */,
+				6E8723355A4F4436865BC885 /* EmbeddedAgent.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,8 +182,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				3A5B2178F06E4CF7B67ACBD0 /* App47PGPlugin.m */,
-				C57ADED3AACD439F921F58D3 /* App47PGPlugin.h */,
+				1548F5AA85DF46E39DAAF137 /* App47PGPlugin.m */,
+				60D5576EE88E4BE7A030315A /* App47PGPlugin.h */,
 			);
 			name = Plugins;
 			path = CordovaTest/Plugins;
@@ -269,7 +269,7 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
-				AB996B1E8C3646EDBE10EAF0 /* EmbeddedAgentSettings.plist in Resources */,
+				4F56D6E953964C3F920B49B7 /* EmbeddedAgentSettings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +301,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				7ADC24A2E2EB4500BC802012 /* App47PGPlugin.m in Sources */,
+				B815D485BA35429681F5CAAD /* App47PGPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +330,8 @@
 					"$(inherited)",
 					CordovaTest/Plugins/com.app47.plugin,
 					"$(PROJECT_DIR)/CordovaTest/Plugins/com.app47.plugin",
+					"\"CordovaTest/Plugins/com.app47.plugin\"",
+					"\"CordovaTest/Plugins/com.app47.plugin\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -359,6 +361,8 @@
 					"$(inherited)",
 					CordovaTest/Plugins/com.app47.plugin,
 					"$(PROJECT_DIR)/CordovaTest/Plugins/com.app47.plugin",
+					"\"CordovaTest/Plugins/com.app47.plugin\"",
+					"\"CordovaTest/Plugins/com.app47.plugin\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CordovaTest/CordovaTest-Prefix.pch";

@@ -13,7 +13,7 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.3.1",
-    "com.app47.plugin": "3.0"
+    "com.app47.plugin": "6.0.1"
 };
 // BOTTOM OF METADATA
 });

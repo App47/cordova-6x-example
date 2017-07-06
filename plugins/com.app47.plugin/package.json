@@ -1,0 +1,30 @@
+{
+  "name": "App47",
+  "version": "6.0.1",
+  "description": "App47 Agent Plugin",
+  "cordova": {
+    "id": "com.app47.plugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/App47/Cordova-6.x.git"
+  },
+  "keywords": [
+    "phonegap",
+    "analytics",
+    "app47",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "App47, Inc.",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/App47/Cordova-6.x/issues"
+  },
+  "homepage": "https://github.com/App47/Cordova-6.x#readme"
+}

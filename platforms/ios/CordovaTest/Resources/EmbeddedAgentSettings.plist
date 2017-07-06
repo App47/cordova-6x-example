@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application id</key>
-	<string>58bda255e609984232001b10</string>
+	<string>595e8573823af976f4bd708d</string>
 	<key>configuration update frequency</key>
 	<real>0.0001</real>
 	<key>delay data upload interval</key>
-	<integer>1</integer>
+	<integer>10</integer>
 	<key>agent logging level</key>
-	<string>info</string>
-	<key>send events immediately</key>
 	<true/>
-	<key>upload on exit</key>
-	<true/>
+	<key>configuration endpoint</key>
+	<string>https://api24.app47.net</string>
 </dict>
 </plist>
