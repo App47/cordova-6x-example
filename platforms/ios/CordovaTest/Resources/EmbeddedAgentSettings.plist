@@ -11,6 +11,6 @@
 	<key>agent logging level</key>
 	<true/>
 	<key>configuration endpoint</key>
-	<string>https://api24.app47.net</string>
+	<string>https://api.app47.net</string>
 </dict>
 </plist>
